@@ -1,0 +1,32 @@
+{
+  "name": "knowhyfile",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.670.0",
+    "@aws-sdk/s3-request-presigner": "^3.670.0",
+    "autoprefixer": "^10.4.20",
+    "flowise-embed": "^2.0.5",
+    "formidable": "^3.5.1",
+    "lucide-react": "^0.453.0",
+    "next": "^14.2.15",
+    "nextjs-cors": "^2.2.0",
+    "postcss": "^8.4.47",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.9",
+    "tailwindcss": "^3.4.13"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
